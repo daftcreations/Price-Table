@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#5d7bea;
+}
+.box{
+    height: 420px;
+    width: 250px;
+    background-color:#5d7bea;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 99;
+}
+.package{
+    position: absolute;
+    top:12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sign{
+    position: absolute;
+    top:5px;
+    left: -5px;
+}
+.price{
+    font-family: cursive;
+    font-size: 50px;
+    color:white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mo{
+    font-family: cursive;
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    right: -25px;
+    font-style: italic;
+}
+.category{
+    font-family: monospace;
+    color:#f7d1c6;
+    position: absolute;
+    letter-spacing: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.imgbox{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top:120px;
+}
+.imgbox img{
+    position: absolute;
+}
+.i1{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.i2{
+    left: 60%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    opacity: .5;
+    transition: all .6s;
+}
+.i3{
+    left: 40%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    opacity: .5;
+    transition: all .6s;
+}
+.box:hover .i2{
+    left: 70%;
+}
+.box:hover .i3{
+    left: 30%;
+}
+.content{
+    height: 58%;
+    width: 250px;
+    background-color:white;
+    position: absolute;
+    top:180px;
+}
+.info{
+    width: 180px;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    background-color:#f3a46f;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#e8782d;
+}
+#box2{
+    height: 400px;
+    left: 33%;
+    z-index: 9;
+}
+#box3{
+    height: 400px;
+    left: 67%;
+    z-index: 9;
+}
+
+
+
+
+
+
+
+
+
